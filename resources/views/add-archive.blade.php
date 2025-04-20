@@ -11,17 +11,17 @@
         <div >
             <div class="p-12 bg-white dark:bg-gray-800 overflow-hidden shadow-sm ">
                 <div class="p-6 text-gray-900 dark:text-gray-100">
-                    Accueil
+                    <a href="/" class="flex">Accueil</a> 
                 </div>
                 <div class="p-6 text-gray-900 dark:text-gray-100">
-                    Archiver 
+                    <a href="/add/archive" class="flex">Archiver</a> 
                 </div>
                 
                 <div class="p-6 text-gray-900 dark:text-gray-100">
-                    Statistiques
+                    <a href="/statistique" class="flex">Statistiques</a> 
                 </div>
                 <div class="p-6 text-gray-900 dark:text-gray-100 pb-48">
-                    Exporter
+                    <a href="" class="flex">Exporter</a> 
                 </div>
                 
                 <div class="p-6"></div>
@@ -39,12 +39,12 @@
     </div>
         </div>
         <div class="basis-2/3 flex-1">
-            <div class="py-12">
+            <div class="py-4">
                 <div class="sm:px-6 lg:px-8">
                     <div class="bg-white dark:bg-gray-800 shadow-sm sm:rounded-lg">
                         <form action="" method="post">
                             <div class="flex flex-col w-full gapy-2 p-4 items-center">
-                            <div class="border-bottom w-3/4 text-zinc-700 dark:text-zinc-50 p-4">
+                                <div class="border-bottom w-3/4 text-zinc-700 dark:text-zinc-50 p-4">
                                     <label for="titre" class=" text-lg p-4  text-gray-900 dark:text-gray-100"> Titre </label><br>
                                     <input type="text" name="titre" id="titre" class="rounded-md outline-zinc-50 p-2 mx-12 w-full bg-white dark:bg-gray-700">
                                 </div>
